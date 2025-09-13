@@ -1,11 +1,14 @@
 <div align="center">
-  <img src="<img width="300" height="274" alt="image" src="https://github.com/user-attachments/assets/de567f9f-8d39-42a2-b864-37b56ce824f2" />
-" alt="Evangelion Banner" width="100%"/>
-</div
-  
-## Hi there, I'm Leha
+  <img src="https://userpic.codeforces.org/887306/title/b450806e36caa423.jpg" alt="Profile Banner" width="100%"/>
+</div>
+
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=435&lines=IT+Recruitment+Specialist;IoT+%26+Arduino+Developer;Cybersecurity+Enthusiast;Integration+Function+Master" alt="Typing SVG" />
+  <h1>Hi there, I'm Leha</h1>
+  <h3>Integration Function Master | IT Recruitment | Cybersecurity Enthusiast</h3>
+</div>
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=435&lines=IoT+%26+Arduino+Developer;Cybersecurity+Researcher;Mathematical+Programming;Integration+%26+Calculus" alt="Typing SVG" />
 </div>
 
 # 💻 About Me:
