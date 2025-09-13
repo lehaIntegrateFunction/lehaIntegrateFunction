@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="sky.jpeg" alt="Evangelion Banner" width="100%"/>
+  <img src="dahz.jpeg" alt="Evangelion Banner" width="100%"/>
 </div
   
 ## Hi there, I'm Leha
