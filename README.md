@@ -59,7 +59,7 @@
 <div align="center">
   <h2>🌐 Connect</h2>
   
-  <img src="code.jpeg" alt="Profile Image" width="300"/>
+  <img src="code.png" alt="Profile Image" width="300"/>
   
   <p>
     <a href="https://instagram.com/tech.cubersecur1ty">
