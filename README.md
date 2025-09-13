@@ -20,10 +20,10 @@
     About me
   </h1>
 </div>
-👨‍💻 Recruitment in the field of IT and cybersecurity
-⚙️ I build my IoT programs with Arduino Nano 328pb on AtMega processor
+👨‍💻 Recruitment in the field of IT and cybersecurity<br>
+⚙️ I build my IoT programs with Arduino Nano 328pb on AtMega processor<br>
 🔐 Self taught cyber attack, password cracking, data protection, future specialist
-
+<br clear ="both">
 ## 🛠️ Tech Stack
 
 ### Languages & Frameworks
