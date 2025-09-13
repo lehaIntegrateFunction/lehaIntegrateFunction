@@ -1,6 +1,9 @@
-## Hi there 👋
+## Hi there, I`m Leha
 
-# 💫 About Me:
+Black hat | Cybersecurity 
+average | Tech
+
+# 💻 About Me:
 <br>👨‍💻recruitment in the field of IT and cybersecurity<br>⚙️I build my IoT programs with Arduino Nano 328pb on AtMega processor<br>🔐self taught cyber attack, password cracking, data protection, future specialist
 
 
