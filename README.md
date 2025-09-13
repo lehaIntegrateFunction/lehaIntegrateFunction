@@ -27,9 +27,6 @@
 🔐 Self taught cyber attack, password cracking, data protection, future specialist
 <br clear="both"/>
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/tech.cubersecur1ty) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@lehapathtotheicpc) 
-
 ## 🛠️ Tech Stack
 
 ### Languages & Frameworks
@@ -62,7 +59,7 @@
 <div align="center">
   <h2>🌐 Connect</h2>
   
-  <img src="https://userpic.codeforces.org/887306/avatar/b450806e36caa423.jpg" alt="Codeforces Avatar" width="300"/>
+  <img src="codeforces.png" alt="Codeforces Avatar" width="300"/>
   
   <p>
     <a href="https://instagram.com/tech.cubersecur1ty">
