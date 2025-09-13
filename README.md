@@ -11,7 +11,19 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=435&lines=IoT+%26+Arduino+Developer;Cybersecurity+Researcher;Mathematical+Programming;Integration+%26+Calculus" alt="Typing SVG" />
 </div>
 
-💻 About Me
+
+
+
+
+<div align="center">
+  <h2>💻 <span style="animation: blink 1s linear infinite;">About Me</span></h2>
+  <style>
+    @keyframes blink {
+      0%, 50% { opacity: 1; }
+      51%, 100% { opacity: 0; }
+    }
+  </style>
+</div>
 <img align="right" alt="Coding GIF" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
 👨‍💻 Recruitment in the field of IT and cybersecurity<br>
 ⚙️ I build my IoT programs with Arduino Nano 328pb on AtMega processor<br>
