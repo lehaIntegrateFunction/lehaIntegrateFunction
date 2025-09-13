@@ -7,8 +7,6 @@
   <h3>Integration Function Master | IT Recruitment | Cybersecurity Enthusiast</h3>
 </div>
 <div align="center">
-
- <h2>💻 About Me</h2>
 <img align="left" alt="Coding GIF" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
 
  <h2>💻 About Me</h2>
