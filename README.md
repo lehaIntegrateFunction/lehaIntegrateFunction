@@ -59,7 +59,7 @@
 <div align="center">
   <h2>🌐 Connect</h2>
   
-  <img src="codeforcesacc.png" alt="Codeforces Avatar" width="300"/>
+  <img url="https://lens.usercontent.google.com/image?vsrid=CNmHpav0pb30hAEQAhgBIiRmNWI3NTFiNy1hM2FjLTQzN2EtYWM5NS0xOGM2MjhlNmMxYjkyBiICZWgoCDihxYvmsNWPAw&gsessionid=7WpZJU14R92AEbWhKQJqy9XxCoqTqZ7pohLGbpsvNcn0BO2IubBSOA" alt="Codeforces Avatar" width="300"/>
   
   <p>
     <a href="https://instagram.com/tech.cubersecur1ty">
