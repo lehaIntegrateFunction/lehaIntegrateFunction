@@ -2,8 +2,6 @@
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=435&lines=IT+Recruitment+Specialist;IoT+%26+Arduino+Developer;Cybersecurity+Enthusiast;Integration+Function+Master" alt="Typing SVG" />
 </div>
-Black hat | Cybersecurity 
-average | Tech
 
 # 💻 About Me:
 <br>👨‍💻recruitment in the field of IT and cybersecurity<br>⚙️I build my IoT programs with Arduino Nano 328pb on AtMega processor<br>🔐self taught cyber attack, password cracking, data protection, future specialist
