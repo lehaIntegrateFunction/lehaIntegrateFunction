@@ -1,5 +1,6 @@
 <div align="center">
-  <img src="dahz.jpeg" alt="Evangelion Banner" width="100%"/>
+  <img src="<img width="300" height="274" alt="image" src="https://github.com/user-attachments/assets/de567f9f-8d39-42a2-b864-37b56ce824f2" />
+" alt="Evangelion Banner" width="100%"/>
 </div
   
 ## Hi there, I'm Leha
