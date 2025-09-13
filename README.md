@@ -16,14 +16,16 @@
 
 
 <div align="center">
-  <h1>
-    About me
-  </h1>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=F7F7F7&center=true&vCenter=true&width=200&lines=💻+About+Me" alt="About Me Typing" />
 </div>
+
+<img align="left" alt="Coding GIF" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
+
 👨‍💻 Recruitment in the field of IT and cybersecurity<br>
 ⚙️ I build my IoT programs with Arduino Nano 328pb on AtMega processor<br>
 🔐 Self taught cyber attack, password cracking, data protection, future specialist
-<br clear ="both">
+
+<br clear="both"/>
 
 
 
