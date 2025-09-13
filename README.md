@@ -11,10 +11,11 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=435&lines=IoT+%26+Arduino+Developer;Cybersecurity+Researcher;Mathematical+Programming;Integration+%26+Calculus" alt="Typing SVG" />
 </div>
 
-<!-- Добавлен отступ сверху (нежный) -->
-<div align="center" style="margin-top: 20px;">
+<!-- Обёртка с явным отступом -->
+<div style="padding-top: 50px;" align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=F7F7F7&center=true&vCenter=true&width=200&lines=💻+About+Me" alt="About Me Typing" />
 </div>
+
 
 
 <img align="left" alt="Coding GIF" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
