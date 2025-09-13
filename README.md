@@ -20,12 +20,10 @@
     About me
   </h1>
 </div>
-</div>
-👨‍💻 <h1>Recruitment in the field of IT and cybersecurity<br></h1>
-⚙️ <h1>I build my IoT programs with Arduino Nano 328pb on AtMega processor<br></h1>
-🔐 <h1>Self taught cyber attack, password cracking, data protection, future specialist</h1>
-<br clear="both"/>
-</div>
+👨‍💻 Recruitment in the field of IT and cybersecurity
+⚙️ I build my IoT programs with Arduino Nano 328pb on AtMega processor
+🔐 Self taught cyber attack, password cracking, data protection, future specialist
+
 ## 🛠️ Tech Stack
 
 ### Languages & Frameworks
