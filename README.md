@@ -59,7 +59,7 @@
 <div align="center">
   <h2>🌐 Connect</h2>
   
-   <img src="https://lens.usercontent.google.com/image?vsrid=CNmHpav0pb30hAEQAhgBIiRmNWI3NTFiNy1hM2FjLTQzN2EtYWM5NS0xOGM2MjhlNmMxYjkyBiICZWgoCDihxYvmsNWPAw&gsessionid=7WpZJU14R92AEbWhKQJqy9XxCoqTqZ7pohLGbpsvNcn0BO2IubBSOA" alt="Profile Image" width="300"/>
+  <img src="code.jpeg" alt="Profile Image" width="300"/>
   
   <p>
     <a href="https://instagram.com/tech.cubersecur1ty">
@@ -67,6 +67,9 @@
     </a>
     <a href="https://tiktok.com/@lehapathtotheicpc">
       <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"/>
+    </a>
+    <a href="https://t.me/@luangly">
+      <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
     </a>
     <a href="https://codeforces.com/profile/lehaIntegrateFunction">
       <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces"/>
