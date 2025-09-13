@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://userpic.codeforces.org/887306/title/b450806e36caa423.jpg" alt="Profile Banner" width="100%"/>
+  <img src="https://userpic.codeforces.org/887306/title/b450806e36caa423.jpg" alt="Profile Banner" width="100%" height="300"/>
 </div>
 
 <div align="center">
