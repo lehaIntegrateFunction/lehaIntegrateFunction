@@ -6,16 +6,23 @@
   <h1>Hi there, I'm Leha</h1>
   <h3>Integration Function Master | IT Recruitment | Cybersecurity Enthusiast</h3>
 </div>
-<div align="center">
-<img align="left" alt="Coding GIF" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
 
- <h2>💻 About Me</h2>
+<div align="center">
+  <h2>💻 <span style="animation: blink 1s linear infinite;">About Me</span></h2>
+  <style>
+    @keyframes blink {
+      0%, 50% { opacity: 1; }
+      51%, 100% { opacity: 0; }
+    }
+  </style>
+</div>
+  
+<img align="left" alt="Coding GIF" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
 👨‍💻 Recruitment in the field of IT and cybersecurity<br>
 ⚙️ I build my IoT programs with Arduino Nano 328pb on AtMega processor<br>
 🔐 Self taught cyber attack, password cracking, data protection, future specialist
 
 <br clear="both"/>
-</div>
 
 
 
