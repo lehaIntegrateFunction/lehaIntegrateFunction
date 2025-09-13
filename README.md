@@ -7,14 +7,12 @@
   <h3>Integration Function Master | IT Recruitment | Cybersecurity Enthusiast</h3>
 </div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=435&lines=IoT+%26+Arduino+Developer;Cybersecurity+Researcher;Mathematical+Programming;Integration+%26+Calculus" alt="Typing SVG" />
-</div>
-
-
-
-🔧 Focused on IoT backend development, Arduino, and embedded systems
-🌟 Passionate about low-level programming, cybersecurity, and scalable architectures
+💻 About Me
+<img align="right" alt="Coding GIF" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
+👨‍💻 Recruitment in the field of IT and cybersecurity<br>
+⚙️ I build my IoT programs with Arduino Nano 328pb on AtMega processor<br>
+🔐 Self taught cyber attack, password cracking, data protection, future specialist
+<br clear="both"/>
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/tech.cubersecur1ty) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@lehapathtotheicpc) 
