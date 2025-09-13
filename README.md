@@ -59,16 +59,21 @@
   <img src="https://img.shields.io/badge/Mathematics-9C27B0?style=for-the-badge&logo=wolfram-mathematica&logoColor=white" alt="Mathematics"/>
 </p>
 
-
-<p align="center">
-  <a href="https://instagram.com/tech.cubersecur1ty">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
-  </a>
-  <a href="https://tiktok.com/@lehapathtotheicpc">
-    <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"/>
-  </a>
-  <a href="https://codeforces.com/profile/lehaIntegrateFunction">
-    <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces"/>
-  </a>
-</p>
+<div align="center">
+  <h2>🌐 Connect</h2>
+  
+  <img src="https://userpic.codeforces.org/887306/avatar/b450806e36caa423.jpg" alt="Codeforces Avatar" width="300"/>
+  
+  <p>
+    <a href="https://instagram.com/tech.cubersecur1ty">
+      <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+    </a>
+    <a href="https://tiktok.com/@lehapathtotheicpc">
+      <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"/>
+    </a>
+    <a href="https://codeforces.com/profile/lehaIntegrateFunction">
+      <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces"/>
+    </a>
+  </p>
+</div>
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
