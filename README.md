@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="sky.webp" alt="Evangelion Banner" width="100%"/>
+</div
+  
 ## Hi there, I`m Leha
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=435&lines=IT+Recruitment+Specialist;IoT+%26+Arduino+Developer;Cybersecurity+Enthusiast;Integration+Function+Master" alt="Typing SVG" />
