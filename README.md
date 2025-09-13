@@ -7,6 +7,10 @@
   <h3>Integration Function Master | IT Recruitment | Cybersecurity Enthusiast</h3>
 </div>
 
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=435&lines=IoT+%26+Arduino+Developer;Cybersecurity+Researcher;Mathematical+Programming;Integration+%26+Calculus" alt="Typing SVG" />
+</div>
+
 💻 About Me
 <img align="right" alt="Coding GIF" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
 👨‍💻 Recruitment in the field of IT and cybersecurity<br>
