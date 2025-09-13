@@ -14,13 +14,14 @@
 <div>
   <h2>💻 About Me</h2>
 </div>
-  
-<img align="left" alt="Coding GIF" width="300" src="https://i.gifer.com/5Ynf.gif">
-    👨‍💻 Recruitment in the field of IT and cybersecurity<br>
-    ⚙️ I build my IoT programs with Arduino Nano 328pb on AtMega processor<br>
-    🔐 Self taught cyber attack, password cracking, data protection, future specialist
+
+<img align="left" alt="Coding GIF" width="300" style="margin-right: 20px;" src="https://i.gifer.com/5Ynf.gif">
+👨‍💻 Recruitment in the field of IT and cybersecurity<br>
+⚙️ I build my IoT programs with Arduino Nano 328pb on AtMega processor<br>
+🔐 Self taught cyber attack, password cracking, data protection, future specialist
 
 <br clear="both"/>
+
 
 
 
