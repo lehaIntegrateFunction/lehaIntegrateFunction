@@ -13,9 +13,8 @@
 
 
 
-# 💻 About Me:
-<br>👨‍💻recruitment in the field of IT and cybersecurity<br>⚙️I build my IoT programs with Arduino Nano 328pb on AtMega processor<br>🔐self taught cyber attack, password cracking, data protection, future specialist
-
+🔧 Focused on IoT backend development, Arduino, and embedded systems
+🌟 Passionate about low-level programming, cybersecurity, and scalable architectures
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/tech.cubersecur1ty) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@lehapathtotheicpc) 
