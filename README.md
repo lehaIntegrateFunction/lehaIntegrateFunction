@@ -16,9 +16,9 @@
 </div>
   
 <img align="left" alt="Coding GIF" width="300" src="https://i.gifer.com/5Ynf.gif">
-👨‍💻 Recruitment in the field of IT and cybersecurity<br>
-⚙️ I build my IoT programs with Arduino Nano 328pb on AtMega processor<br>
-🔐 Self taught cyber attack, password cracking, data protection, future specialist
+    👨‍💻 Recruitment in the field of IT and cybersecurity<br>
+    ⚙️ I build my IoT programs with Arduino Nano 328pb on AtMega processor<br>
+    🔐 Self taught cyber attack, password cracking, data protection, future specialist
 
 <br clear="both"/>
 
