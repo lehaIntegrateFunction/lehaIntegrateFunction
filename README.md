@@ -1,8 +1,3 @@
-Вернул змейку на место! 🐍
-
-Вот полный обновлённый код, где секция с анимацией змейки (`github-contribution-grid-snake.svg`) снова на своём месте под заголовком `## $ tail -f contribution.log`, а в `$ ./run_stats.sh` стоит стабильный терминальный блок:
-
-```markdown
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:0D1117&height=200&section=header&text=root@leha:~%23&fontColor=00FF41&fontSize=50&fontAlignY=35&desc=Aspiring%20Cybersecurity%20Specialist%20%7C%20CTF%20%2B%20Reverse%20Engineering&descAlignY=58&descSize=16&descColor=00FF41&animation=fadeIn" width="100%"/>
@@ -114,5 +109,3 @@ This profile is my terminal into the world of infosec — welcome in.
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:000000&height=120&section=footer" width="100%"/>
 
 </div>
-
-```
