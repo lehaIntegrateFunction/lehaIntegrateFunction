@@ -734,12 +734,6 @@
   }}>
     <img
       src="https://raw.githubusercontent.com/lehaIntegrateFunction/LehaIntegrateFunction/output/github-contribution-grid-snake.svg"
-      style={{
-        width: '100%',
-        maxWidth: 790,
-        height: 'auto',
-        display: 'block'
-      }}
     />
   </div>
 </div>
