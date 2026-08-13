@@ -81,12 +81,7 @@ This profile is my terminal into the world of infosec — welcome in.
 
 <div align="center">
 
-```bash
-[+] SYSTEM STATUS : OPERATIONAL
-[+] TARGET        : CTF CHALLENGES & BINARY REVERSE ENGINEERING
-[+] SHELL         : ACTIVE / ZSH
-[+] ENCRYPTION    : AES-256
-```
+<img src="https://user-images.githubusercontent.com/73097560/115834477-db036b00-a447-11eb-8414-06d5637f2022.gif" width="100%"/>
 
 </div>
 
