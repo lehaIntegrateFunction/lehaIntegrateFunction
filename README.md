@@ -1,45 +1,3 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-<meta charset="UTF-8">
-<title>Превью профиля</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-dark.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
-<style>
-  body {
-    background: #0D1117;
-    margin: 0;
-    padding: 32px 12px;
-    display: flex;
-    justify-content: center;
-  }
-  .markdown-body {
-    box-sizing: border-box;
-    max-width: 900px;
-    width: 100%;
-    background: #0D1117;
-    padding: 24px;
-    border: 1px solid #21262d;
-    border-radius: 8px;
-  }
-  .markdown-body img { max-width: 100%; }
-  .banner-note {
-    max-width: 900px;
-    margin: 0 auto 12px auto;
-    color: #7d8590;
-    font-family: -apple-system, sans-serif;
-    font-size: 13px;
-    text-align: center;
-  }
-</style>
-</head>
-<body>
-<div style="width:100%;">
-  <div class="banner-note">⚡ Живой предпросмотр — все виджеты (статистика, стрик, трофеи) подгружаются в реальном времени с тех же серверов, что будет использовать GitHub</div>
-  <article class="markdown-body" id="content"></article>
-</div>
-
-<script id="md" type="text/markdown">
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:0D1117&height=200&section=header&text=root@leha:~%23&fontColor=00FF41&fontSize=50&fontAlignY=35&desc=Aspiring%20Cybersecurity%20Specialist%20%7C%20CTF%20%2B%20Reverse%20Engineering&descAlignY=58&descSize=16&descColor=00FF41&animation=fadeIn" width="100%"/>
@@ -60,11 +18,11 @@
 
 ```bash
 ──────────────────────────────────────────────
- NAME    : Leha
- ROLE    : Future Cybersecurity Specialist
- STATUS  : Student, class of 2027
- FOCUS   : CTF | Reverse Engineering | Binary Exploitation
- MOTTO   : Break it. Understand it. Fix it.
+ NAME    : Leha
+ ROLE    : Future Cybersecurity Specialist
+ STATUS  : Student, class of 2027
+ FOCUS   : CTF | Reverse Engineering | Binary Exploitation
+ MOTTO   : Break it. Understand it. Fix it.
 ──────────────────────────────────────────────
 ```
 
@@ -149,11 +107,3 @@ This profile is my terminal into the world of infosec — welcome in.
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:000000&height=120&section=footer" width="100%"/>
 
 </div>
-</script>
-
-<script>
-  const raw = document.getElementById('md').textContent;
-  document.getElementById('content').innerHTML = marked.parse(raw);
-</script>
-</body>
-</html> 
