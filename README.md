@@ -77,12 +77,11 @@ This profile is my terminal into the world of infosec — welcome in.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=lehaIntegrateFunction&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lehaIntegrateFunction&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=c9d1d9" width="42%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=lehaIntegrateFunction&theme=react-dark&bg_color=0D1117&color=00FF41&line=00FF41&point=FFFFFF&hide_border=true" width="100%" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=lehaIntegrateFunction&background=0D1117&border=00FF41&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=6b7280&hide_border=false" width="60%"/>
+<br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=lehaIntegrateFunction&theme=matrix&no-frame=true&row=1&column=6&margin-w=8" width="90%"/>
+<img src="https://github-profile-trophy.vercel.app/?username=lehaIntegrateFunction&theme=matrix&no-frame=true&row=1&column=6&margin-w=10" width="100%"/>
 
 </div>
 
