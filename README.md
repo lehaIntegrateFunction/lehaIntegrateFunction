@@ -73,15 +73,9 @@ This profile is my terminal into the world of infosec — welcome in.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-db036b00-a447-11eb-8414-06d5637f2022.gif" width="100%"/>
 
-## `$ ./run_stats.sh`
-
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=lehaIntegrateFunction&theme=react-dark&bg_color=0D1117&color=00FF41&line=00FF41&point=FFFFFF&hide_border=true" width="100%" />
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=lehaIntegrateFunction&theme=matrix&no-frame=true&row=1&column=6&margin-w=10" width="100%"/>
+<img src="https://github-cube-stat.vercel.app/api?user=lehaIntegrateFunction&theme=matrix" width="80%"/>
 
 </div>
 
