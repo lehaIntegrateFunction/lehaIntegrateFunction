@@ -13,24 +13,21 @@
   boxSizing: 'border-box'
 }}>
   <style>{`
-    @keyframes glow-move-1 {
-      0%, 100% { transform: translate(0px, 0px) scale(1); }
-      50% { transform: translate(180px, -30px) scale(1.3); }
+    @keyframes glow1 {
+      0%,100% { transform: translate(0,0) scale(1); }
+      50% { transform: translate(180px,-30px) scale(1.3); }
     }
-
-    @keyframes glow-move-2 {
-      0%, 100% { transform: translate(0px, 0px) scale(1); }
-      50% { transform: translate(-150px, 40px) scale(1.2); }
+    @keyframes glow2 {
+      0%,100% { transform: translate(0,0) scale(1); }
+      50% { transform: translate(-150px,40px) scale(1.2); }
     }
-
-    @keyframes glow-move-3 {
-      0%, 100% { transform: translate(0px, 0px) scale(1); }
-      50% { transform: translate(120px, 50px) scale(1.4); }
+    @keyframes glow3 {
+      0%,100% { transform: translate(0,0) scale(1); }
+      50% { transform: translate(120px,50px) scale(1.4); }
     }
-
-    #b1-g1 { animation: glow-move-1 9s ease-in-out infinite; }
-    #b1-g2 { animation: glow-move-2 11s ease-in-out infinite; }
-    #b1-g3 { animation: glow-move-3 7s ease-in-out infinite; }
+    #hero-g1 { animation: glow1 9s ease-in-out infinite; }
+    #hero-g2 { animation: glow2 11s ease-in-out infinite; }
+    #hero-g3 { animation: glow3 7s ease-in-out infinite; }
   `}</style>
 
   <svg width="860" height="200" style={{
@@ -39,27 +36,27 @@
     left: 0
   }}>
     <defs>
-      <radialGradient id="bg1-1" cx="50%" cy="50%" r="50%">
+      <radialGradient id="hero-purple">
         <stop offset="0%" stopColor="rgba(168,85,247,0.95)" />
-        <stop offset="60%" stopColor="rgba(147,51,234,0.4)" />
+        <stop offset="65%" stopColor="rgba(147,51,234,0.25)" />
         <stop offset="100%" stopColor="rgba(0,0,0,0)" />
       </radialGradient>
 
-      <radialGradient id="bg1-2" cx="50%" cy="50%" r="50%">
+      <radialGradient id="hero-blue">
         <stop offset="0%" stopColor="rgba(59,130,246,0.95)" />
-        <stop offset="65%" stopColor="rgba(37,99,235,0.35)" />
+        <stop offset="65%" stopColor="rgba(37,99,235,0.25)" />
         <stop offset="100%" stopColor="rgba(0,0,0,0)" />
       </radialGradient>
 
-      <radialGradient id="bg1-3" cx="50%" cy="50%" r="50%">
+      <radialGradient id="hero-pink">
         <stop offset="0%" stopColor="rgba(236,72,153,0.85)" />
         <stop offset="70%" stopColor="rgba(219,39,119,0)" />
       </radialGradient>
     </defs>
 
-    <circle id="b1-g1" cx="200" cy="180" r="180" fill="url(#bg1-1)" />
-    <circle id="b1-g2" cx="550" cy="190" r="170" fill="url(#bg1-2)" />
-    <circle id="b1-g3" cx="380" cy="100" r="140" fill="url(#bg1-3)" />
+    <circle id="hero-g1" cx="200" cy="180" r="180" fill="url(#hero-purple)" />
+    <circle id="hero-g2" cx="550" cy="190" r="170" fill="url(#hero-blue)" />
+    <circle id="hero-g3" cx="380" cy="100" r="140" fill="url(#hero-pink)" />
   </svg>
 
   <div style={{
@@ -90,7 +87,6 @@
     </div>
 
     <div style={{
-      display: 'flex',
       fontSize: 14,
       color: 'rgba(216,180,254,0.9)',
       fontWeight: 400
@@ -103,53 +99,19 @@
       gap: 8,
       marginTop: 8
     }}>
-      <div style={{
-        padding: '5px 14px',
-        borderRadius: 20,
-        background: 'rgba(147,51,234,0.25)',
-        border: '1px solid rgba(192,132,252,0.5)',
-        color: '#f3e8ff',
-        fontSize: 12,
-        fontWeight: 600
-      }}>
-        C++
-      </div>
-
-      <div style={{
-        padding: '5px 14px',
-        borderRadius: 20,
-        background: 'rgba(147,51,234,0.25)',
-        border: '1px solid rgba(192,132,252,0.5)',
-        color: '#f3e8ff',
-        fontSize: 12,
-        fontWeight: 600
-      }}>
-        Python
-      </div>
-
-      <div style={{
-        padding: '5px 14px',
-        borderRadius: 20,
-        background: 'rgba(147,51,234,0.25)',
-        border: '1px solid rgba(192,132,252,0.5)',
-        color: '#f3e8ff',
-        fontSize: 12,
-        fontWeight: 600
-      }}>
-        Assembly
-      </div>
-
-      <div style={{
-        padding: '5px 14px',
-        borderRadius: 20,
-        background: 'rgba(147,51,234,0.25)',
-        border: '1px solid rgba(192,132,252,0.5)',
-        color: '#f3e8ff',
-        fontSize: 12,
-        fontWeight: 600
-      }}>
-        Kali Linux
-      </div>
+      {['C++', 'Python', 'Assembly', 'Kali Linux'].map((item) => (
+        <div key={item} style={{
+          padding: '5px 14px',
+          borderRadius: 20,
+          background: 'rgba(147,51,234,0.25)',
+          border: '1px solid rgba(192,132,252,0.5)',
+          color: '#f3e8ff',
+          fontSize: 12,
+          fontWeight: 600
+        }}>
+          {item}
+        </div>
+      ))}
     </div>
   </div>
 </div>
@@ -171,24 +133,18 @@
   boxSizing: 'border-box'
 }}>
   <style>{`
-    @keyframes glow-move-4 {
-      0%, 100% { transform: translate(0px, 0px) scale(1); }
-      50% { transform: translate(220px, -25px) scale(1.4); }
+    @keyframes stats1 {
+      0%,100% { transform: translate(0,0) scale(1); }
+      50% { transform: translate(220px,-25px) scale(1.4); }
     }
 
-    @keyframes glow-move-5 {
-      0%, 100% { transform: translate(0px, 0px) scale(1); }
-      50% { transform: translate(-200px, 30px) scale(1.3); }
+    @keyframes stats2 {
+      0%,100% { transform: translate(0,0) scale(1); }
+      50% { transform: translate(-200px,30px) scale(1.3); }
     }
 
-    @keyframes glow-move-5b {
-      0%, 100% { transform: translate(0px, 0px) scale(1); }
-      50% { transform: translate(140px, -40px) scale(1.2); }
-    }
-
-    #b2-g1 { animation: glow-move-4 10s ease-in-out infinite; }
-    #b2-g2 { animation: glow-move-5 8s ease-in-out infinite; }
-    #b2-g3 { animation: glow-move-5b 9s ease-in-out infinite; }
+    #stats-g1 { animation: stats1 10s ease-in-out infinite; }
+    #stats-g2 { animation: stats2 8s ease-in-out infinite; }
   `}</style>
 
   <svg width="860" height="140" style={{
@@ -197,31 +153,19 @@
     left: 0
   }}>
     <defs>
-      <radialGradient id="bg2-1" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(168,85,247,0.95)" />
+      <radialGradient id="stats-purple">
+        <stop offset="0%" stopColor="rgba(168,85,247,0.9)" />
         <stop offset="70%" stopColor="rgba(126,34,206,0)" />
       </radialGradient>
 
-      <radialGradient id="bg2-2" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(59,130,246,0.95)" />
+      <radialGradient id="stats-blue">
+        <stop offset="0%" stopColor="rgba(59,130,246,0.9)" />
         <stop offset="70%" stopColor="rgba(29,78,216,0)" />
-      </radialGradient>
-
-      <radialGradient id="bg2-3" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(14,165,233,0.85)" />
-        <stop offset="70%" stopColor="rgba(14,116,144,0)" />
-      </radialGradient>
-
-      <radialGradient id="bg2-4" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(236,72,153,0.8)" />
-        <stop offset="70%" stopColor="rgba(0,0,0,0)" />
       </radialGradient>
     </defs>
 
-    <circle id="b2-g1" cx="200" cy="110" r="170" fill="url(#bg2-1)" />
-    <circle id="b2-g2" cx="660" cy="100" r="170" fill="url(#bg2-2)" />
-    <circle id="b2-g3" cx="430" cy="120" r="150" fill="url(#bg2-3)" />
-    <circle cx="80" cy="50" r="110" fill="url(#bg2-4)" />
+    <circle id="stats-g1" cx="200" cy="110" r="170" fill="url(#stats-purple)" />
+    <circle id="stats-g2" cx="660" cy="100" r="170" fill="url(#stats-blue)" />
   </svg>
 
   <div style={{
@@ -239,7 +183,6 @@
     }}>
       11
     </span>
-
     <span style={{
       fontSize: 11,
       color: 'rgba(233,213,255,0.8)',
@@ -253,8 +196,7 @@
   <div style={{
     width: 1,
     height: 50,
-    background: 'rgba(255,255,255,0.15)',
-    position: 'relative'
+    background: 'rgba(255,255,255,0.15)'
   }} />
 
   <div style={{
@@ -272,7 +214,6 @@
     }}>
       146
     </span>
-
     <span style={{
       fontSize: 11,
       color: 'rgba(233,213,255,0.8)',
@@ -286,8 +227,7 @@
   <div style={{
     width: 1,
     height: 50,
-    background: 'rgba(255,255,255,0.15)',
-    position: 'relative'
+    background: 'rgba(255,255,255,0.15)'
   }} />
 
   <div style={{
@@ -305,7 +245,6 @@
     }}>
       2466
     </span>
-
     <span style={{
       fontSize: 11,
       color: 'rgba(233,213,255,0.8)',
@@ -326,34 +265,28 @@
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',
-  padding: '24px 40px',
+  padding: '22px 32px',
   borderRadius: 18,
   border: '1px solid rgba(139,92,246,0.5)',
   fontFamily: 'Inter, sans-serif',
   position: 'relative',
   overflow: 'hidden',
   boxSizing: 'border-box',
-  gap: 18
+  gap: 14
 }}>
   <style>{`
-    @keyframes glow-move-6a {
-      0%, 100% { transform: translate(0px, 0px) scale(1); }
-      50% { transform: translate(-240px, -40px) scale(1.4); }
+    @keyframes stack1 {
+      0%,100% { transform: translate(0,0) scale(1); }
+      50% { transform: translate(-200px,-30px) scale(1.3); }
     }
 
-    @keyframes glow-move-6b {
-      0%, 100% { transform: translate(0px, 0px) scale(1); }
-      50% { transform: translate(200px, 30px) scale(1.3); }
+    @keyframes stack2 {
+      0%,100% { transform: translate(0,0) scale(1); }
+      50% { transform: translate(180px,30px) scale(1.25); }
     }
 
-    @keyframes glow-move-6c {
-      0%, 100% { transform: translate(0px, 0px) scale(1); }
-      50% { transform: translate(-120px, -20px) scale(1.2); }
-    }
-
-    #b3-g1 { animation: glow-move-6a 11s ease-in-out infinite; }
-    #b3-g2 { animation: glow-move-6b 9s ease-in-out infinite; }
-    #b3-g3 { animation: glow-move-6c 10s ease-in-out infinite; }
+    #stack-g1 { animation: stack1 10s ease-in-out infinite; }
+    #stack-g2 { animation: stack2 9s ease-in-out infinite; }
   `}</style>
 
   <svg width="860" height="180" style={{
@@ -362,31 +295,19 @@
     left: 0
   }}>
     <defs>
-      <radialGradient id="bg3-1" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(168,85,247,0.95)" />
+      <radialGradient id="stack-purple">
+        <stop offset="0%" stopColor="rgba(168,85,247,0.8)" />
         <stop offset="70%" stopColor="rgba(126,34,206,0)" />
       </radialGradient>
 
-      <radialGradient id="bg3-2" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(59,130,246,0.95)" />
+      <radialGradient id="stack-blue">
+        <stop offset="0%" stopColor="rgba(59,130,246,0.8)" />
         <stop offset="70%" stopColor="rgba(29,78,216,0)" />
-      </radialGradient>
-
-      <radialGradient id="bg3-3" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(236,72,153,0.85)" />
-        <stop offset="70%" stopColor="rgba(190,24,93,0)" />
-      </radialGradient>
-
-      <radialGradient id="bg3-4" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(6,182,212,0.8)" />
-        <stop offset="70%" stopColor="rgba(0,0,0,0)" />
       </radialGradient>
     </defs>
 
-    <circle id="b3-g1" cx="720" cy="130" r="190" fill="url(#bg3-1)" />
-    <circle id="b3-g2" cx="150" cy="140" r="180" fill="url(#bg3-2)" />
-    <circle id="b3-g3" cx="450" cy="50" r="140" fill="url(#bg3-3)" />
-    <circle cx="800" cy="30" r="100" fill="url(#bg3-4)" />
+    <circle id="stack-g1" cx="720" cy="130" r="190" fill="url(#stack-purple)" />
+    <circle id="stack-g2" cx="150" cy="140" r="180" fill="url(#stack-blue)" />
   </svg>
 
   <div style={{
@@ -409,8 +330,7 @@
       fontSize: 12,
       color: '#c084fc',
       fontWeight: 700,
-      width: 110,
-      letterSpacing: 0.5
+      width: 110
     }}>
       LANGUAGES
     </span>
@@ -419,89 +339,33 @@
       display: 'flex',
       gap: 10
     }}>
-      <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        gap: 6,
-        padding: '6px 16px',
-        borderRadius: 10,
-        background: 'rgba(255,255,255,0.07)',
-        border: '1px solid rgba(255,255,255,0.15)',
-        color: '#ffffff',
-        fontSize: 13,
-        fontWeight: 600
-      }}>
-        <span style={{
-          width: 8,
-          height: 8,
-          borderRadius: '50%',
-          background: '#659ad2'
-        }} />
-        C++
-      </div>
-
-      <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        gap: 6,
-        padding: '6px 16px',
-        borderRadius: 10,
-        background: 'rgba(255,255,255,0.07)',
-        border: '1px solid rgba(255,255,255,0.15)',
-        color: '#ffffff',
-        fontSize: 13,
-        fontWeight: 600
-      }}>
-        <span style={{
-          width: 8,
-          height: 8,
-          borderRadius: '50%',
-          background: '#3572A5'
-        }} />
-        Python
-      </div>
-
-      <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        gap: 6,
-        padding: '6px 16px',
-        borderRadius: 10,
-        background: 'rgba(255,255,255,0.07)',
-        border: '1px solid rgba(255,255,255,0.15)',
-        color: '#ffffff',
-        fontSize: 13,
-        fontWeight: 600
-      }}>
-        <span style={{
-          width: 8,
-          height: 8,
-          borderRadius: '50%',
-          background: '#6E4C13'
-        }} />
-        Assembly
-      </div>
-
-      <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        gap: 6,
-        padding: '6px 16px',
-        borderRadius: 10,
-        background: 'rgba(255,255,255,0.07)',
-        border: '1px solid rgba(255,255,255,0.15)',
-        color: '#ffffff',
-        fontSize: 13,
-        fontWeight: 600
-      }}>
-        <span style={{
-          width: 8,
-          height: 8,
-          borderRadius: '50%',
-          background: '#89e051'
-        }} />
-        Bash
-      </div>
+      {[
+        ['#659ad2', 'C++'],
+        ['#3572A5', 'Python'],
+        ['#6E4C13', 'Assembly'],
+        ['#89e051', 'Bash']
+      ].map(([color, name]) => (
+        <div key={name} style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: 6,
+          padding: '6px 16px',
+          borderRadius: 10,
+          background: 'rgba(255,255,255,0.07)',
+          border: '1px solid rgba(255,255,255,0.15)',
+          color: '#ffffff',
+          fontSize: 13,
+          fontWeight: 600
+        }}>
+          <span style={{
+            width: 8,
+            height: 8,
+            borderRadius: '50%',
+            background: color
+          }} />
+          {name}
+        </div>
+      ))}
     </div>
   </div>
 
@@ -515,99 +379,42 @@
       fontSize: 12,
       color: '#60a5fa',
       fontWeight: 700,
-      width: 110,
-      letterSpacing: 0.5
+      width: 110
     }}>
-      FRAMEWORKS
+      TOOLS
     </span>
 
     <div style={{
       display: 'flex',
       gap: 10
     }}>
-      <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        gap: 6,
-        padding: '6px 16px',
-        borderRadius: 10,
-        background: 'rgba(255,255,255,0.07)',
-        border: '1px solid rgba(255,255,255,0.15)',
-        color: '#ffffff',
-        fontSize: 13,
-        fontWeight: 600
-      }}>
-        <span style={{
-          width: 8,
-          height: 8,
-          borderRadius: '50%',
-          background: '#22d3ee'
-        }} />
-        Kali Linux
-      </div>
-
-      <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        gap: 6,
-        padding: '6px 16px',
-        borderRadius: 10,
-        background: 'rgba(255,255,255,0.07)',
-        border: '1px solid rgba(255,255,255,0.15)',
-        color: '#ffffff',
-        fontSize: 13,
-        fontWeight: 600
-      }}>
-        <span style={{
-          width: 8,
-          height: 8,
-          borderRadius: '50%',
-          background: '#a855f7'
-        }} />
-        Ghidra
-      </div>
-
-      <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        gap: 6,
-        padding: '6px 16px',
-        borderRadius: 10,
-        background: 'rgba(255,255,255,0.07)',
-        border: '1px solid rgba(255,255,255,0.15)',
-        color: '#ffffff',
-        fontSize: 13,
-        fontWeight: 600
-      }}>
-        <span style={{
-          width: 8,
-          height: 8,
-          borderRadius: '50%',
-          background: '#3b82f6'
-        }} />
-        Wireshark
-      </div>
-
-      <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        gap: 6,
-        padding: '6px 16px',
-        borderRadius: 10,
-        background: 'rgba(255,255,255,0.07)',
-        border: '1px solid rgba(255,255,255,0.15)',
-        color: '#ffffff',
-        fontSize: 13,
-        fontWeight: 600
-      }}>
-        <span style={{
-          width: 8,
-          height: 8,
-          borderRadius: '50%',
-          background: '#f43f5e'
-        }} />
-        GDB
-      </div>
+      {[
+        ['#22d3ee', 'Kali Linux'],
+        ['#a855f7', 'Ghidra'],
+        ['#3b82f6', 'Wireshark'],
+        ['#f43f5e', 'GDB']
+      ].map(([color, name]) => (
+        <div key={name} style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: 6,
+          padding: '6px 16px',
+          borderRadius: 10,
+          background: 'rgba(255,255,255,0.07)',
+          border: '1px solid rgba(255,255,255,0.15)',
+          color: '#ffffff',
+          fontSize: 13,
+          fontWeight: 600
+        }}>
+          <span style={{
+            width: 8,
+            height: 8,
+            borderRadius: '50%',
+            background: color
+          }} />
+          {name}
+        </div>
+      ))}
     </div>
   </div>
 </div>
@@ -630,13 +437,13 @@
   boxSizing: 'border-box'
 }}>
   <style>{`
-    @keyframes glow-move-soc {
-      0%, 100% { transform: translate(0px, 0px) scale(1); }
-      50% { transform: translate(150px, -20px) scale(1.3); }
+    @keyframes socialGlow {
+      0%,100% { transform: translate(0,0) scale(1); }
+      50% { transform: translate(150px,-20px) scale(1.3); }
     }
 
-    #b4-g1 {
-      animation: glow-move-soc 8s ease-in-out infinite;
+    #social-g1 {
+      animation: socialGlow 8s ease-in-out infinite;
     }
   `}</style>
 
@@ -646,19 +453,19 @@
     left: 0
   }}>
     <defs>
-      <radialGradient id="bg4-1" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(168,85,247,0.8)" />
+      <radialGradient id="social-purple">
+        <stop offset="0%" stopColor="rgba(168,85,247,0.75)" />
         <stop offset="100%" stopColor="rgba(0,0,0,0)" />
       </radialGradient>
 
-      <radialGradient id="bg4-2" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(59,130,246,0.8)" />
+      <radialGradient id="social-blue">
+        <stop offset="0%" stopColor="rgba(59,130,246,0.75)" />
         <stop offset="100%" stopColor="rgba(0,0,0,0)" />
       </radialGradient>
     </defs>
 
-    <circle id="b4-g1" cx="300" cy="50" r="120" fill="url(#bg4-1)" />
-    <circle cx="560" cy="50" r="120" fill="url(#bg4-2)" />
+    <circle id="social-g1" cx="300" cy="50" r="120" fill="url(#social-purple)" />
+    <circle cx="560" cy="50" r="120" fill="url(#social-blue)" />
   </svg>
 
   <div style={{
@@ -667,7 +474,7 @@
     gap: 10,
     padding: '10px 22px',
     borderRadius: 12,
-    background: 'rgba(15,15,26,0.85)',
+    background: 'rgba(15,15,26,0.9)',
     border: '1px solid rgba(56,189,248,0.5)',
     color: '#38bdf8',
     fontSize: 13,
@@ -686,7 +493,7 @@
     gap: 10,
     padding: '10px 22px',
     borderRadius: 12,
-    background: 'rgba(15,15,26,0.85)',
+    background: 'rgba(15,15,26,0.9)',
     border: '1px solid rgba(244,63,94,0.5)',
     color: '#f43f5e',
     fontSize: 13,
@@ -694,7 +501,7 @@
     position: 'relative'
   }}>
     <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 1 1-2.89-2.89c.29 0 .56.04.83.1v-3.6a6.35 6.35 0 0 0-.83-.05A6.34 6.34 0 1 0 15.82 15V8a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.15z"/>
+      <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 1 1-2.89-2.89c.29 0 .56.04.83.1v-3.6a6.35 6.35 0 1 0 6.34 6.35V8a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.15z"/>
     </svg>
     TIKTOK
   </div>
@@ -705,21 +512,14 @@
     gap: 10,
     padding: '10px 22px',
     borderRadius: 12,
-    background: 'rgba(15,15,26,0.85)',
+    background: 'rgba(15,15,26,0.9)',
     border: '1px solid rgba(168,85,247,0.5)',
     color: '#c084fc',
     fontSize: 13,
     fontWeight: 700,
     position: 'relative'
   }}>
-    <svg
-      width="18"
-      height="18"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-    >
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
       <rect x="3" y="5" width="18" height="14" rx="2" />
       <path d="m3 7 9 6 9-6" />
     </svg>
@@ -729,6 +529,7 @@
 ```
 
 ## `$ tail -f contribution.log`
+
 ```aura width=860 height=180
 <div style={{
   width: '100%',
@@ -747,31 +548,18 @@
   gap: 14
 }}>
   <style>{`
-    @keyframes snake-glow-1 {
-      0%, 100% {
-        transform: translate(0px, 0px) scale(1);
-      }
-      50% {
-        transform: translate(180px, -20px) scale(1.25);
-      }
+    @keyframes snakeGlow1 {
+      0%,100% { transform: translate(0,0) scale(1); }
+      50% { transform: translate(180px,-20px) scale(1.25); }
     }
 
-    @keyframes snake-glow-2 {
-      0%, 100% {
-        transform: translate(0px, 0px) scale(1);
-      }
-      50% {
-        transform: translate(-160px, 25px) scale(1.2);
-      }
+    @keyframes snakeGlow2 {
+      0%,100% { transform: translate(0,0) scale(1); }
+      50% { transform: translate(-160px,25px) scale(1.2); }
     }
 
-    #snake-g1 {
-      animation: snake-glow-1 9s ease-in-out infinite;
-    }
-
-    #snake-g2 {
-      animation: snake-glow-2 11s ease-in-out infinite;
-    }
+    #snake-g1 { animation: snakeGlow1 9s ease-in-out infinite; }
+    #snake-g2 { animation: snakeGlow2 11s ease-in-out infinite; }
   `}</style>
 
   <svg width="860" height="180" style={{
@@ -780,12 +568,12 @@
     left: 0
   }}>
     <defs>
-      <radialGradient id="snake-bg-1" cx="50%" cy="50%" r="50%">
+      <radialGradient id="snake-purple">
         <stop offset="0%" stopColor="rgba(168,85,247,0.75)" />
         <stop offset="70%" stopColor="rgba(126,34,206,0)" />
       </radialGradient>
 
-      <radialGradient id="snake-bg-2" cx="50%" cy="50%" r="50%">
+      <radialGradient id="snake-blue">
         <stop offset="0%" stopColor="rgba(59,130,246,0.7)" />
         <stop offset="70%" stopColor="rgba(29,78,216,0)" />
       </radialGradient>
@@ -796,7 +584,7 @@
       cx="180"
       cy="150"
       r="150"
-      fill="url(#snake-bg-1)"
+      fill="url(#snake-purple)"
     />
 
     <circle
@@ -804,7 +592,7 @@
       cx="700"
       cy="50"
       r="150"
-      fill="url(#snake-bg-2)"
+      fill="url(#snake-blue)"
     />
   </svg>
 
@@ -863,3 +651,4 @@
     />
   </div>
 </div>
+```
