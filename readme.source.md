@@ -133,17 +133,17 @@
   fontFamily: 'Inter', position: 'relative', overflow: 'hidden'
 }}>
   <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4 }}>
-    <span style={{ fontSize: 36, fontWeight: 800, color: '#a030ff' }}>{user.public_repos}</span>
+    <span style={{ fontSize: 36, fontWeight: 800, color: '#a030ff' }}>{github?.user?.publicRepos ?? github?.stats?.repos ?? 0}</span>
     <span style={{ fontSize: 12, color: 'rgba(180,165,255,0.6)', letterSpacing: 1.5, fontWeight: 600 }}>REPOSITORIES</span>
   </div>
   <div style={{ width: 1, height: 60, background: 'rgba(110,80,220,0.2)' }}></div>
   <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4 }}>
-    <span style={{ fontSize: 36, fontWeight: 800, color: '#283cff' }}>{user.stars}</span>
+    <span style={{ fontSize: 36, fontWeight: 800, color: '#283cff' }}>{github?.stats?.stars ?? 0}</span>
     <span style={{ fontSize: 12, color: 'rgba(180,165,255,0.6)', letterSpacing: 1.5, fontWeight: 600 }}>STARS</span>
   </div>
   <div style={{ width: 1, height: 60, background: 'rgba(110,80,220,0.2)' }}></div>
   <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4 }}>
-    <span style={{ fontSize: 36, fontWeight: 800, color: '#00ccff' }}>{user.contributions}</span>
+    <span style={{ fontSize: 36, fontWeight: 800, color: '#00ccff' }}>{github?.stats?.commits ?? 0}</span>
     <span style={{ fontSize: 12, color: 'rgba(180,165,255,0.6)', letterSpacing: 1.5, fontWeight: 600 }}>COMMITS</span>
   </div>
 </div>
