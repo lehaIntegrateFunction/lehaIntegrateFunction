@@ -6,7 +6,7 @@
 
 <br/>
 
-[![Telegram](https://img.shields.io/badge/Telegram-000000?style=for-the-badge&logo=telegram&logoColor=00FF41)](https://t.me/rootracer)
+[![Telegram](https://img.shields.io/badge/Telegram-000000?style=for-the-badge&logo=telegram&logoColor=00FF41)](https://t.me/rootrace)
 [![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=00FF41)](https://www.tiktok.com/@user1101000010010000)
 [![Email](https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=00FF41)](mailto:qwer290310@gmail.com)
 
@@ -59,6 +59,8 @@ This profile is my terminal into the world of infosec — welcome in.
 
 **Reverse Engineering & CTF**
 
+![Ghidra](https://img.shields.io/badge/Ghidra-000000?style=for-the-badge&logo=ghidra&logoColor=00FF41)
+![GDB](https://img.shields.io/badge/GDB-000000?style=for-the-badge&logo=gnu&logoColor=00FF41)
 ![CTFtime](https://img.shields.io/badge/CTFtime-000000?style=for-the-badge&logo=ctf&logoColor=00FF41)
 ![HackTheBox](https://img.shields.io/badge/HackTheBox-000000?style=for-the-badge&logo=hackthebox&logoColor=00FF41)
 
@@ -71,11 +73,19 @@ This profile is my terminal into the world of infosec — welcome in.
 
 </div>
 
+<br/>
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-db036b00-a447-11eb-8414-06d5637f2022.gif" width="100%"/>
+
+## `$ ./run_stats.sh`
 
 <div align="center">
 
 <img src="https://github-cube-stat.vercel.app/api?user=lehaIntegrateFunction&theme=matrix" width="80%"/>
+
+<br/><br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=lehaIntegrateFunction&theme=matrix&no-frame=true&row=1&column=6&margin-w=10" width="100%"/>
 
 </div>
 
