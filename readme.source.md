@@ -1,6 +1,3 @@
-
-
-```aura width=860 height=200 link="https://collectioneur.github.io/readme-aura/"
 <div style={{
   width: '100%', height: '100%', background: '#08080c',
   display: 'flex', alignItems: 'center', fontFamily: 'Inter',
@@ -101,21 +98,18 @@
     borderRadius: 48, background: 'linear-gradient(135deg, #6622ee, #0088ff)',
     display: 'flex', alignItems: 'center', justifyContent: 'center',
   }}>
-    <img src={github?.user?.avatarUrl ?? 'https://github.com/LehaIntegrateFunction.png'} width={88} height={88} style={{ borderRadius: 44 }} />
+    <img src={github?.user?.avatarUrl ?? '[https://github.com/LehaIntegrateFunction.png](https://github.com/LehaIntegrateFunction.png)'} width={88} height={88} style={{ borderRadius: 44 }} />
   </div>
 
   <div style={{ display:'flex', flexDirection:'column', marginLeft:168, gap:8, zIndex: 10 }}>
     <div style={{ display:'flex', fontSize:38, fontWeight:800, color:'#ffffff', letterSpacing:'-1px', lineHeight:1 }}>
-      {github?.user?.name || github?.user?.login || 'LehaIntegrateFunction' || 'Name'}
+      {github?.user?.name || github?.user?.login || 'Leha'}
     </div>
     <div style={{ display:'flex', fontSize:15, color:'rgba(180,165,255,0.8)', fontWeight:400, letterSpacing:'0.3px' }}>
-      {github?.user?.bio || 'Put here your bio'}
+      Future Cybersecurity Specialist | CTF & Reverse Engineering
     </div>
     <div style={{ display:'flex', gap:8, marginTop:6, flexWrap: 'wrap' }}>
-      {((github && github.languages && github.languages.length > 0)
-        ? github.languages.slice(0, 4).map(function(l) { return l.name; })
-        : ['readme-aura', 'other technologies']
-      ).map(function(tag, i) {
+      {['C++', 'Python', 'Assembly', 'Kali Linux', 'Ghidra'].map(function(tag, i) {
         return (
           <div key={tag + '-' + i} style={{
             display:'flex', padding:'4px 12px', borderRadius:20,
@@ -129,8 +123,51 @@
 </div>
 ```
 
-```aura width=860 height=22 link="https://collectioneur.github.io/readme-aura/"
-  <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', height: '100%', padding: 0, margin: 0 }}>
-    <span style={{ fontSize: 12, lineHeight: 1, color: 'rgba(150,140,200,0.55)', fontWeight: 500, letterSpacing: '0.4px' }}>powered by readme-aura</span>
+<br/>
+
+```aura width=860 height=140
+<div style={{
+  width: '100%', height: '100%', background: '#08080c',
+  display: 'flex', alignItems: 'center', justifyContent: 'space-around',
+  borderRadius: 16, border: '1px solid rgba(110,80,220,0.18)',
+  fontFamily: 'Inter', position: 'relative', overflow: 'hidden'
+}}>
+  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4 }}>
+    <span style={{ fontSize: 36, fontWeight: 800, color: '#a030ff' }}>{user.public_repos}</span>
+    <span style={{ fontSize: 12, color: 'rgba(180,165,255,0.6)', letterSpacing: 1.5, fontWeight: 600 }}>REPOSITORIES</span>
   </div>
+  <div style={{ width: 1, height: 60, background: 'rgba(110,80,220,0.2)' }}></div>
+  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4 }}>
+    <span style={{ fontSize: 36, fontWeight: 800, color: '#283cff' }}>{user.stars}</span>
+    <span style={{ fontSize: 12, color: 'rgba(180,165,255,0.6)', letterSpacing: 1.5, fontWeight: 600 }}>STARS</span>
+  </div>
+  <div style={{ width: 1, height: 60, background: 'rgba(110,80,220,0.2)' }}></div>
+  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4 }}>
+    <span style={{ fontSize: 36, fontWeight: 800, color: '#00ccff' }}>{user.contributions}</span>
+    <span style={{ fontSize: 12, color: 'rgba(180,165,255,0.6)', letterSpacing: 1.5, fontWeight: 600 }}>COMMITS</span>
+  </div>
+</div>
 ```
+
+<br/>
+
+<div align="center">
+
+[![Telegram](https://img.shields.io/badge/Telegram-000000?style=for-the-badge&logo=telegram&logoColor=0088ff)](https://t.me/rootrace)
+[![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=0088ff)](https://www.tiktok.com/@user1101000010010000)
+[![Email](https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=0088ff)](mailto:qwer290310@gmail.com)
+
+</div>
+
+<br/>
+
+## `$ tail -f contribution.log`
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/lehaIntegrateFunction/LehaIntegrateFunction/output/github-contribution-grid-snake.svg" width="100%"/>
+
+</div>
+```
+
+---
