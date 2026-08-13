@@ -59,8 +59,6 @@ This profile is my terminal into the world of infosec — welcome in.
 
 **Reverse Engineering & CTF**
 
-![Ghidra](https://img.shields.io/badge/Ghidra-000000?style=for-the-badge&logo=ghidra&logoColor=00FF41)
-![GDB](https://img.shields.io/badge/GDB-000000?style=for-the-badge&logo=gnu&logoColor=00FF41)
 ![CTFtime](https://img.shields.io/badge/CTFtime-000000?style=for-the-badge&logo=ctf&logoColor=00FF41)
 ![HackTheBox](https://img.shields.io/badge/HackTheBox-000000?style=for-the-badge&logo=hackthebox&logoColor=00FF41)
 
