@@ -729,7 +729,137 @@
 ```
 
 ## `$ tail -f contribution.log`
+```aura width=860 height=180
+<div style={{
+  width: '100%',
+  height: '100%',
+  background: '#050508',
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+  padding: '22px 32px',
+  borderRadius: 18,
+  border: '1px solid rgba(139,92,246,0.5)',
+  fontFamily: 'Inter, sans-serif',
+  position: 'relative',
+  overflow: 'hidden',
+  boxSizing: 'border-box',
+  gap: 14
+}}>
+  <style>{`
+    @keyframes snake-glow-1 {
+      0%, 100% {
+        transform: translate(0px, 0px) scale(1);
+      }
+      50% {
+        transform: translate(180px, -20px) scale(1.25);
+      }
+    }
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/lehaIntegrateFunction/LehaIntegrateFunction/output/github-contribution-grid-snake.svg" width="100%"/>
+    @keyframes snake-glow-2 {
+      0%, 100% {
+        transform: translate(0px, 0px) scale(1);
+      }
+      50% {
+        transform: translate(-160px, 25px) scale(1.2);
+      }
+    }
+
+    #snake-g1 {
+      animation: snake-glow-1 9s ease-in-out infinite;
+    }
+
+    #snake-g2 {
+      animation: snake-glow-2 11s ease-in-out infinite;
+    }
+  `}</style>
+
+  <svg width="860" height="180" style={{
+    position: 'absolute',
+    top: 0,
+    left: 0
+  }}>
+    <defs>
+      <radialGradient id="snake-bg-1" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(168,85,247,0.75)" />
+        <stop offset="70%" stopColor="rgba(126,34,206,0)" />
+      </radialGradient>
+
+      <radialGradient id="snake-bg-2" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(59,130,246,0.7)" />
+        <stop offset="70%" stopColor="rgba(29,78,216,0)" />
+      </radialGradient>
+    </defs>
+
+    <circle
+      id="snake-g1"
+      cx="180"
+      cy="150"
+      r="150"
+      fill="url(#snake-bg-1)"
+    />
+
+    <circle
+      id="snake-g2"
+      cx="700"
+      cy="50"
+      r="150"
+      fill="url(#snake-bg-2)"
+    />
+  </svg>
+
+  <div style={{
+    display: 'flex',
+    alignItems: 'center',
+    gap: 10,
+    position: 'relative'
+  }}>
+    <span style={{
+      color: '#c084fc',
+      fontSize: 14,
+      fontWeight: 800
+    }}>
+      $
+    </span>
+
+    <span style={{
+      color: '#ffffff',
+      fontSize: 14,
+      fontWeight: 700
+    }}>
+      tail -f contribution.log
+    </span>
+
+    <span style={{
+      width: 7,
+      height: 7,
+      borderRadius: '50%',
+      background: '#22c55e',
+      boxShadow: '0 0 10px rgba(34,197,94,0.8)',
+      marginLeft: 3
+    }} />
+  </div>
+
+  <div style={{
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '100%',
+    padding: '14px 10px',
+    borderRadius: 12,
+    background: 'rgba(255,255,255,0.035)',
+    border: '1px solid rgba(255,255,255,0.08)',
+    position: 'relative',
+    boxSizing: 'border-box'
+  }}>
+    <img
+      src="https://raw.githubusercontent.com/lehaIntegrateFunction/LehaIntegrateFunction/output/github-contribution-grid-snake.svg"
+      style={{
+        width: '100%',
+        maxWidth: 790,
+        height: 'auto',
+        display: 'block'
+      }}
+    />
+  </div>
 </div>
