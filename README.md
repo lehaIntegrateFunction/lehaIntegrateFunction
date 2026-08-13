@@ -71,7 +71,7 @@ This profile is my terminal into the world of infosec — welcome in.
 
 </div>
 
-<img src="https://i.imgur.com/d229a4L.gif" width="100%"/>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-db036b00-a447-11eb-8414-06d5637f2022.gif" width="100%"/>
 
 ## `$ ./run_stats.sh`
 
