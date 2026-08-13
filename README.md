@@ -2,29 +2,29 @@
 <div style={{
   display: 'flex',
   alignItems: 'center',
-  padding: '32px',
+  padding: '28px',
   borderRadius: '16px',
   background: '#08080c',
   border: '1px solid rgba(110, 80, 220, 0.3)',
-  fontFamily: 'system-ui, sans-serif',
-  gap: '24px'
+  fontFamily: 'sans-serif',
+  gap: '20px'
 }}>
   <img 
     src="https://github.com/LehaIntegrateFunction.png" 
-    style={{ width: '88px', height: '88px', borderRadius: '50%', border: '2px solid #6622ee' }} 
+    style={{ width: '80px', height: '80px', borderRadius: '50%', border: '2px solid #6622ee' }} 
   />
-  <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-    <h1 style={{ color: '#ffffff', margin: 0, fontSize: '32px', fontWeight: 'bold' }}>
-      Leha <span style={{ color: '#a030ff', fontSize: '18px' }}>(root@leha)</span>
+  <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+    <h1 style={{ color: '#ffffff', margin: 0, fontSize: '28px', fontWeight: 'bold' }}>
+      Leha <span style={{ color: '#a030ff', fontSize: '16px' }}>(root@leha)</span>
     </h1>
-    <p style={{ color: 'rgba(180, 165, 255, 0.8)', margin: 0, fontSize: '15px' }}>
+    <p style={{ color: 'rgba(180, 165, 255, 0.8)', margin: 0, fontSize: '14px' }}>
       Future Cybersecurity Specialist | CTF & Reverse Engineering 👨‍💻
     </p>
     <div style={{ display: 'flex', gap: '8px', marginTop: '4px' }}>
-      <span style={{ background: 'rgba(80, 40, 220, 0.2)', color: 'rgba(205, 195, 255, 0.9)', border: '1px solid rgba(100, 70, 240, 0.4)', padding: '4px 12px', borderRadius: '20px', fontSize: '12px' }}>C++</span>
-      <span style={{ background: 'rgba(80, 40, 220, 0.2)', color: 'rgba(205, 195, 255, 0.9)', border: '1px solid rgba(100, 70, 240, 0.4)', padding: '4px 12px', borderRadius: '20px', fontSize: '12px' }}>Python</span>
-      <span style={{ background: 'rgba(80, 40, 220, 0.2)', color: 'rgba(205, 195, 255, 0.9)', border: '1px solid rgba(100, 70, 240, 0.4)', padding: '4px 12px', borderRadius: '20px', fontSize: '12px' }}>Assembly</span>
-      <span style={{ background: 'rgba(80, 40, 220, 0.2)', color: 'rgba(205, 195, 255, 0.9)', border: '1px solid rgba(100, 70, 240, 0.4)', padding: '4px 12px', borderRadius: '20px', fontSize: '12px' }}>Kali Linux</span>
+      <span style={{ background: 'rgba(80, 40, 220, 0.2)', color: 'rgba(205, 195, 255, 0.9)', border: '1px solid rgba(100, 70, 240, 0.4)', padding: '4px 10px', borderRadius: '16px', fontSize: '12px' }}>C++</span>
+      <span style={{ background: 'rgba(80, 40, 220, 0.2)', color: 'rgba(205, 195, 255, 0.9)', border: '1px solid rgba(100, 70, 240, 0.4)', padding: '4px 10px', borderRadius: '16px', fontSize: '12px' }}>Python</span>
+      <span style={{ background: 'rgba(80, 40, 220, 0.2)', color: 'rgba(205, 195, 255, 0.9)', border: '1px solid rgba(100, 70, 240, 0.4)', padding: '4px 10px', borderRadius: '16px', fontSize: '12px' }}>Assembly</span>
+      <span style={{ background: 'rgba(80, 40, 220, 0.2)', color: 'rgba(205, 195, 255, 0.9)', border: '1px solid rgba(100, 70, 240, 0.4)', padding: '4px 10px', borderRadius: '16px', fontSize: '12px' }}>Kali Linux</span>
     </div>
   </div>
 </div>
@@ -36,26 +36,26 @@
 <div style={{
   display: 'flex',
   alignItems: 'center',
-  justify: 'space-around',
-  padding: '24px',
+  justifyContent: 'space-around',
+  padding: '20px',
   borderRadius: '16px',
   background: '#08080c',
   border: '1px solid rgba(110, 80, 220, 0.3)',
-  fontFamily: 'system-ui, sans-serif'
+  fontFamily: 'sans-serif'
 }}>
   <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px' }}>
-    <span style={{ fontSize: '36px', fontWeight: 'bold', color: '#a030ff' }}>{github?.user?.publicRepos ?? 0}</span>
-    <span style={{ fontSize: '12px', color: 'rgba(180, 165, 255, 0.6)', letterSpacing: '1.5px' }}>REPOSITORIES</span>
+    <span style={{ fontSize: '32px', fontWeight: 'bold', color: '#a030ff' }}>11</span>
+    <span style={{ fontSize: '12px', color: 'rgba(180, 165, 255, 0.6)', letterSpacing: '1px' }}>REPOSITORIES</span>
   </div>
-  <div style={{ width: '1px', height: '50px', background: 'rgba(110, 80, 220, 0.2)' }}></div>
+  <div style={{ width: '1px', height: '40px', background: 'rgba(110, 80, 220, 0.2)' }}></div>
   <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px' }}>
-    <span style={{ fontSize: '36px', fontWeight: 'bold', color: '#283cff' }}>{github?.stats?.stars ?? 0}</span>
-    <span style={{ fontSize: '12px', color: 'rgba(180, 165, 255, 0.6)', letterSpacing: '1.5px' }}>STARS</span>
+    <span style={{ fontSize: '32px', fontWeight: 'bold', color: '#283cff' }}>146</span>
+    <span style={{ fontSize: '12px', color: 'rgba(180, 165, 255, 0.6)', letterSpacing: '1px' }}>STARS</span>
   </div>
-  <div style={{ width: '1px', height: '50px', background: 'rgba(110, 80, 220, 0.2)' }}></div>
+  <div style={{ width: '1px', height: '40px', background: 'rgba(110, 80, 220, 0.2)' }}></div>
   <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px' }}>
-    <span style={{ fontSize: '36px', fontWeight: 'bold', color: '#00ccff' }}>{github?.stats?.commits ?? 0}</span>
-    <span style={{ fontSize: '12px', color: 'rgba(180, 165, 255, 0.6)', letterSpacing: '1.5px' }}>COMMITS</span>
+    <span style={{ fontSize: '32px', fontWeight: 'bold', color: '#00ccff' }}>2466</span>
+    <span style={{ fontSize: '12px', color: 'rgba(180, 165, 255, 0.6)', letterSpacing: '1px' }}>COMMITS</span>
   </div>
 </div>
 </aura>
