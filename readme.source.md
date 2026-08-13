@@ -35,15 +35,7 @@
     <ellipse id="glow-3" cx="420" cy="240" rx="180" ry="140" fill="url(#g3)" />
   </svg>
 
-  <div style={{
-    position: 'absolute', left: 48, top: 52, width: 96, height: 96,
-    borderRadius: 48, background: 'linear-gradient(135deg, #6622ee, #0088ff)',
-    display: 'flex', alignItems: 'center', justifyContent: 'center'
-  }}>
-    <img src="[https://github.com/LehaIntegrateFunction.png](https://github.com/LehaIntegrateFunction.png)" width={88} height={88} style={{ borderRadius: 44 }} />
-  </div>
-
-  <div style={{ display:'flex', flexDirection:'column', marginLeft:168, gap:8, zIndex: 10 }}>
+  <div style={{ display:'flex', flexDirection:'column', marginLeft:48, gap:8, position: 'relative' }}>
     <div style={{ display:'flex', fontSize:36, fontWeight:800, color:'#ffffff', letterSpacing:'-1px', lineHeight:1 }}>
       Leha <span style={{ fontSize: 18, color: '#a030ff', marginLeft: 10, alignSelf: 'center' }}>(root@leha)</span>
     </div>
