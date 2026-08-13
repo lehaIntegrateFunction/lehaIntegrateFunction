@@ -202,13 +202,68 @@
 
 <br />
 
-<div align="center">
+```aura width=860 height=100
+<div style={{
+  width: '100%', height: '100%', background: '#050508',
+  display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 16,
+  borderRadius: 18, border: '1px solid rgba(139,92,246,0.5)',
+  fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden',
+  boxSizing: 'border-box'
+}}>
+  <style>{`
+      @keyframes glow-move-soc { 0%, 100% { transform: translate(0px, 0px) scale(1); } 50% { transform: translate(150px, -20px) scale(1.3); } }
+      #b4-g1 { animation: glow-move-soc 8s ease-in-out infinite; }
+    `}</style>
 
-[![Telegram](https://img.shields.io/badge/Telegram-0a0a12?style=for-the-badge&logo=telegram&logoColor=0088ff)](https://t.me/rootrace)
-[![TikTok](https://img.shields.io/badge/TikTok-0a0a12?style=for-the-badge&logo=tiktok&logoColor=0088ff)](https://www.tiktok.com/@user1101000010010000)
-[![Email](https://img.shields.io/badge/Email-0a0a12?style=for-the-badge&logo=gmail&logoColor=0088ff)](mailto:qwer290310@gmail.com)
+  <svg width="860" height="100" style={{ position: 'absolute', top: 0, left: 0 }}>
+    <defs>
+      <radialGradient id="bg4-1" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(168,85,247,0.8)" />
+        <stop offset="100%" stopColor="rgba(0,0,0,0)" />
+      </radialGradient>
+      <radialGradient id="bg4-2" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(59,130,246,0.8)" />
+        <stop offset="100%" stopColor="rgba(0,0,0,0)" />
+      </radialGradient>
+    </defs>
+    <circle id="b4-g1" cx="300" cy="50" r="120" fill="url(#bg4-1)" />
+    <circle cx="560" cy="50" r="120" fill="url(#bg4-2)" />
+  </svg>
 
+  <div style={{
+    display: 'flex', alignItems: 'center', gap: 10, padding: '10px 22px',
+    borderRadius: 12, background: 'rgba(15,15,26,0.85)', border: '1px solid rgba(56,189,248,0.5)',
+    color: '#38bdf8', fontSize: 13, fontWeight: 700, position: 'relative'
+  }}>
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="#38bdf8">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.02-1.96 1.25-5.54 3.67-.52.36-.99.53-1.42.52-.47-.01-1.37-.26-2.03-.48-.82-.27-1.47-.42-1.42-.88.03-.24.37-.49 1.02-.75 3.98-1.73 6.64-2.87 7.97-3.44 3.8-1.58 4.59-1.86 5.1-1.87.11 0 .37.03.54.17.14.12.18.28.2.45-.02.07-.01.19-.03.32z"/>
+    </svg>
+    TELEGRAM
+  </div>
+
+  <div style={{
+    display: 'flex', alignItems: 'center', gap: 10, padding: '10px 22px',
+    borderRadius: 12, background: 'rgba(15,15,26,0.85)', border: '1px solid rgba(244,63,94,0.5)',
+    color: '#f43f5e', fontSize: 13, fontWeight: 700, position: 'relative'
+  }}>
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="#f43f5e">
+      <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.29 0 .56.04.83.1v-3.6a6.35 6.35 0 0 0-.83-.05A6.34 6.34 0 0 0 3 15.57a6.34 6.34 0 0 0 10.86 4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.04-.15z"/>
+    </svg>
+    TIKTOK
+  </div>
+
+  <div style={{
+    display: 'flex', alignItems: 'center', gap: 10, padding: '10px 22px',
+    borderRadius: 12, background: 'rgba(15,15,26,0.85)', border: '1px solid rgba(168,85,247,0.5)',
+    color: '#c084fc', fontSize: 13, fontWeight: 700, position: 'relative'
+  }}>
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="#c084fc">
+      <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+    </svg>
+    EMAIL
+  </div>
 </div>
+```
 
 <br/>
 
