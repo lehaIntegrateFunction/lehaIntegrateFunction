@@ -36,7 +36,7 @@
     <circle id="b1-g3" cx="380" cy="100" r="140" fill="url(#bg1-3)" />
   </svg>
 
-  <div style={{ display:'flex', flexDirection:'column', marginLeft:48, gap:8, position: 'relative', zIndex: 2 }}>
+  <div style={{ display:'flex', flexDirection:'column', marginLeft:48, gap:8, position: 'relative' }}>
     <div style={{ display:'flex', fontSize:38, fontWeight:800, color:'#ffffff', letterSpacing:'-1px', lineHeight:1 }}>
       Leha <span style={{ fontSize: 18, color: '#c084fc', marginLeft: 10, alignSelf: 'center', fontWeight: 600 }}>(root@leha)</span>
     </div>
@@ -90,17 +90,17 @@
     <circle cx="430" cy="130" r="130" fill="url(#bg2-3)" />
   </svg>
 
-  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4, position: 'relative', zIndex: 2 }}>
+  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4, position: 'relative' }}>
     <span style={{ fontSize: 38, fontWeight: 800, color: '#c084fc' }}>11</span>
     <span style={{ fontSize: 11, color: 'rgba(233,213,255,0.7)', letterSpacing: 1.5, fontWeight: 700 }}>REPOS</span>
   </div>
-  <div style={{ width: 1, height: 50, background: 'rgba(255,255,255,0.12)', position: 'relative', zIndex: 2 }}></div>
-  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4, position: 'relative', zIndex: 2 }}>
+  <div style={{ width: 1, height: 50, background: 'rgba(255,255,255,0.12)', position: 'relative' }}></div>
+  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4, position: 'relative' }}>
     <span style={{ fontSize: 38, fontWeight: 800, color: '#60a5fa' }}>146</span>
     <span style={{ fontSize: 11, color: 'rgba(233,213,255,0.7)', letterSpacing: 1.5, fontWeight: 700 }}>STARS</span>
   </div>
-  <div style={{ width: 1, height: 50, background: 'rgba(255,255,255,0.12)', position: 'relative', zIndex: 2 }}></div>
-  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4, position: 'relative', zIndex: 2 }}>
+  <div style={{ width: 1, height: 50, background: 'rgba(255,255,255,0.12)', position: 'relative' }}></div>
+  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4, position: 'relative' }}>
     <span style={{ fontSize: 38, fontWeight: 800, color: '#fbbf24' }}>2466</span>
     <span style={{ fontSize: 11, color: 'rgba(233,213,255,0.7)', letterSpacing: 1.5, fontWeight: 700 }}>COMMITS</span>
   </div>
@@ -118,30 +118,32 @@
   boxSizing: 'border-box', gap: 18
 }}>
   <style>{`
-      @keyframes glow-move-6 { 0%, 100% { transform: translate(0px, 0px) scale(1); } 50% { transform: translate(-220px, -30px) scale(1.3); } }
-      #b3-g1 { animation: glow-move-6 12s ease-in-out infinite; }
+      @keyframes glow-move-6a { 0%, 100% { transform: translate(0px, 0px) scale(1); } 50% { transform: translate(-220px, -30px) scale(1.3); } }
+      @keyframes glow-move-6b { 0%, 100% { transform: translate(0px, 0px) scale(1); } 50% { transform: translate(180px, 20px) scale(1.2); } }
+      #b3-g1 { animation: glow-move-6a 11s ease-in-out infinite; }
+      #b3-g2 { animation: glow-move-6b 9s ease-in-out infinite; }
     `}</style>
 
   <svg width="860" height="180" style={{ position: 'absolute', top: 0, left: 0 }}>
     <defs>
       <radialGradient id="bg3-1" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(168,85,247,0.8)" />
+        <stop offset="0%" stopColor="rgba(168,85,247,0.85)" />
         <stop offset="70%" stopColor="rgba(126,34,206,0)" />
       </radialGradient>
       <radialGradient id="bg3-2" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(59,130,246,0.75)" />
+        <stop offset="0%" stopColor="rgba(59,130,246,0.8)" />
         <stop offset="70%" stopColor="rgba(29,78,216,0)" />
       </radialGradient>
     </defs>
     <circle id="b3-g1" cx="700" cy="140" r="180" fill="url(#bg3-1)" />
-    <circle cx="200" cy="150" r="160" fill="url(#bg3-2)" />
+    <circle id="b3-g2" cx="200" cy="150" r="160" fill="url(#bg3-2)" />
   </svg>
 
-  <div style={{ fontSize: 11, color: 'rgba(216,180,254,0.6)', fontWeight: 700, letterSpacing: 1.5, position: 'relative', zIndex: 2 }}>
+  <div style={{ fontSize: 11, color: 'rgba(216,180,254,0.6)', fontWeight: 700, letterSpacing: 1.5, position: 'relative' }}>
     TECH STACK
   </div>
 
-  <div style={{ display: 'flex', alignItems: 'center', gap: 24, position: 'relative', zIndex: 2 }}>
+  <div style={{ display: 'flex', alignItems: 'center', gap: 24, position: 'relative' }}>
     <span style={{ fontSize: 12, color: '#c084fc', fontWeight: 700, width: 110, letterSpacing: 0.5 }}>LANGUAGES</span>
     <div style={{ display: 'flex', gap: 10 }}>
       <span style={{ padding: '6px 16px', borderRadius: 10, background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.12)', color: '#ffffff', fontSize: 13, fontWeight: 600 }}>C++</span>
@@ -151,7 +153,7 @@
     </div>
   </div>
 
-  <div style={{ display: 'flex', alignItems: 'center', gap: 24, position: 'relative', zIndex: 2 }}>
+  <div style={{ display: 'flex', alignItems: 'center', gap: 24, position: 'relative' }}>
     <span style={{ fontSize: 12, color: '#60a5fa', fontWeight: 700, width: 110, letterSpacing: 0.5 }}>FRAMEWORKS</span>
     <div style={{ display: 'flex', gap: 10 }}>
       <span style={{ padding: '6px 16px', borderRadius: 10, background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.12)', color: '#ffffff', fontSize: 13, fontWeight: 600 }}>Kali Linux</span>
@@ -165,48 +167,13 @@
 
 <br />
 
-```aura width=860 height=70
-<div style={{
-  width: '100%', height: '100%', background: '#050508',
-  display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 16,
-  borderRadius: 35, border: '1px solid rgba(139,92,246,0.3)',
-  fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden',
-  boxSizing: 'border-box'
-}}>
-  <style>{`
-      @keyframes glow-move-7 { 0%, 100% { transform: translateX(0px); } 50% { transform: translateX(300px); } }
-      #b4-g1 { animation: glow-move-7 8s ease-in-out infinite; }
-    `}</style>
+<div align="center">
 
-  <svg width="860" height="70" style={{ position: 'absolute', top: 0, left: 0 }}>
-    <defs>
-      <radialGradient id="bg4-1" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(168,85,247,0.7)" />
-        <stop offset="70%" stopColor="rgba(59,130,246,0)" />
-      </radialGradient>
-    </defs>
-    <ellipse id="b4-g1" cx="280" cy="35" rx="250" ry="50" fill="url(#bg4-1)" />
-  </svg>
+[![Telegram](https://img.shields.io/badge/Telegram-000000?style=for-the-badge&logo=telegram&logoColor=0088ff)](https://t.me/rootrace)
+[![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=0088ff)](https://www.tiktok.com/@user1101000010010000)
+[![Email](https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=0088ff)](mailto:qwer290310@gmail.com)
 
-  <a href="[https://t.me/rootrace](https://t.me/rootrace)" style={{ textDecoration: 'none', position: 'relative', zIndex: 2 }}>
-    <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '8px 20px', borderRadius: 20, background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.12)', color: '#ffffff', fontSize: 13, fontWeight: 600 }}>
-      <span style={{ color: '#38bdf8' }}>✈</span> Telegram
-    </div>
-  </a>
-
-  <a href="[https://www.tiktok.com/@user1101000010010000](https://www.tiktok.com/@user1101000010010000)" style={{ textDecoration: 'none', position: 'relative', zIndex: 2 }}>
-    <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '8px 20px', borderRadius: 20, background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.12)', color: '#ffffff', fontSize: 13, fontWeight: 600 }}>
-      <span style={{ color: '#f43f5e' }}>🎵</span> TikTok
-    </div>
-  </a>
-
-  <a href="mailto:qwer290310@gmail.com" style={{ textDecoration: 'none', position: 'relative', zIndex: 2 }}>
-    <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '8px 20px', borderRadius: 20, background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.12)', color: '#ffffff', fontSize: 13, fontWeight: 600 }}>
-      <span style={{ color: '#ea580c' }}>✉</span> Email
-    </div>
-  </a>
 </div>
-```
 
 <br/>
 
@@ -214,6 +181,6 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/lehaIntegrateFunction/LehaIntegrateFunction/output/github-contribution-grid-snake.svg" width="100%"/>
+<img src="[https://raw.githubusercontent.com/lehaIntegrateFunction/LehaIntegrateFunction/output/github-contribution-grid-snake.svg](https://raw.githubusercontent.com/lehaIntegrateFunction/LehaIntegrateFunction/output/github-contribution-grid-snake.svg)" width="100%"/>
 
 </div>
