@@ -390,7 +390,7 @@
         fontSize: 13,
         fontWeight: 600
       }}>
-        ● C++
+         C++
       </div>
 
       <div style={{
@@ -402,7 +402,7 @@
         fontSize: 13,
         fontWeight: 600
       }}>
-        ● Python
+         Python
       </div>
 
       <div style={{
@@ -414,7 +414,7 @@
         fontSize: 13,
         fontWeight: 600
       }}>
-        ● Assembly
+         Assembly
       </div>
 
       <div style={{
@@ -426,7 +426,7 @@
         fontSize: 13,
         fontWeight: 600
       }}>
-        ● Bash
+         Bash
       </div>
     </div>
   </div>
@@ -460,7 +460,7 @@
         fontSize: 13,
         fontWeight: 600
       }}>
-        ● Kali Linux
+         Kali Linux
       </div>
 
       <div style={{
@@ -472,7 +472,7 @@
         fontSize: 13,
         fontWeight: 600
       }}>
-        ● Ghidra
+         Ghidra
       </div>
 
       <div style={{
@@ -484,7 +484,7 @@
         fontSize: 13,
         fontWeight: 600
       }}>
-        ● Wireshark
+         Wireshark
       </div>
 
       <div style={{
@@ -496,7 +496,7 @@
         fontSize: 13,
         fontWeight: 600
       }}>
-        ● GDB
+         GDB
       </div>
     </div>
   </div>
@@ -505,7 +505,7 @@
 
 ```aura width=150 height=44 link="https://t.me/ТВОЙ_НИК" inline align=center
 <SocialMediaButton
-  icon="https://cdn.simpleicons.org/telegram/ffffff"
+  icon="https://raw.githubusercontent.com/lehaIntegrateFunction/LehaIntegrateFunction/main/telegram-icon.svg"
   text="Telegram"
   backgroundColor="#111111"
   width={150}
@@ -524,7 +524,7 @@
 
 ```aura width=150 height=44 link="https://tiktok.com/@ТВОЙ_НИК" inline align=center
 <SocialMediaButton
-  icon="https://cdn.simpleicons.org/tiktok/ffffff"
+  icon="https://raw.githubusercontent.com/lehaIntegrateFunction/LehaIntegrateFunction/main/icontiktok.jpg"
   text="TikTok"
   backgroundColor="#111111"
   width={150}
@@ -543,7 +543,7 @@
 
 ```aura width=150 height=44 link="mailto:ТВОЯ_ПОЧТА@example.com" inline align=center
 <SocialMediaButton
-  icon="https://cdn.simpleicons.org/gmail/ffffff"
+  icon="https://raw.githubusercontent.com/lehaIntegrateFunction/LehaIntegrateFunction/main/gmail-icon.svg"
   text="Email"
   backgroundColor="#111111"
   width={150}
