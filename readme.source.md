@@ -503,106 +503,61 @@
 </div>
 ```
 
-```aura width=860 height=100
-<div style={{
-  width: '100%',
-  height: '100%',
-  background: '#050508',
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  gap: 16,
-  borderRadius: 18,
-  border: '1px solid rgba(139,92,246,0.5)',
-  fontFamily: 'Inter, sans-serif',
-  position: 'relative',
-  overflow: 'hidden',
-  boxSizing: 'border-box'
-}}>
-  <div style={{
-    display: 'flex',
-    alignItems: 'center',
-    gap: 10,
-    padding: '10px 22px',
-    borderRadius: 12,
-    background: 'rgba(15,15,26,0.9)',
-    border: '1px solid rgba(56,189,248,0.5)',
-    color: '#38bdf8',
-    fontSize: 13,
-    fontWeight: 700
-  }}>
-    <span style={{
-      width: 28,
-      height: 28,
-      borderRadius: 8,
-      background: 'rgba(56,189,248,0.15)',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      fontSize: 11,
-      fontWeight: 900
-    }}>
-      TG
-    </span>
-    TELEGRAM
-  </div>
+```aura width=150 height=44 link="https://t.me/ТВОЙ_НИК" inline align=center
+<SocialMediaButton
+  icon="https://cdn.simpleicons.org/telegram/ffffff"
+  text="Telegram"
+  backgroundColor="#111111"
+  width={150}
+  height={44}
+  gradientStops={[
+    { offset: '0%', color: '#ffffff' },
+    { offset: '10%', color: '#111111' },
+    { offset: '50%', color: '#eeeeee' },
+    { offset: '60%', color: '#1af4ff' },
+    { offset: '80%', color: '#111111' },
+    { offset: '100%', color: '#555555' },
+  ]}
+  iconSize="30"
+/>
+```
 
-  <div style={{
-    display: 'flex',
-    alignItems: 'center',
-    gap: 10,
-    padding: '10px 22px',
-    borderRadius: 12,
-    background: 'rgba(15,15,26,0.9)',
-    border: '1px solid rgba(244,63,94,0.5)',
-    color: '#f43f5e',
-    fontSize: 13,
-    fontWeight: 700
-  }}>
-    <span style={{
-      width: 28,
-      height: 28,
-      borderRadius: 8,
-      background: 'rgba(244,63,94,0.15)',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      fontSize: 11,
-      fontWeight: 900
-    }}>
-      TT
-    </span>
-    TIKTOK
-  </div>
+```aura width=150 height=44 link="https://tiktok.com/@ТВОЙ_НИК" inline align=center
+<SocialMediaButton
+  icon="https://cdn.simpleicons.org/tiktok/ffffff"
+  text="TikTok"
+  backgroundColor="#111111"
+  width={150}
+  height={44}
+  gradientStops={[
+    { offset: '0%', color: '#ffffff' },
+    { offset: '10%', color: '#111111' },
+    { offset: '50%', color: '#eeeeee' },
+    { offset: '60%', color: '#1af4ff' },
+    { offset: '80%', color: '#111111' },
+    { offset: '100%', color: '#555555' },
+  ]}
+  iconSize="30"
+/>
+```
 
-  <div style={{
-    display: 'flex',
-    alignItems: 'center',
-    gap: 10,
-    padding: '10px 22px',
-    borderRadius: 12,
-    background: 'rgba(15,15,26,0.9)',
-    border: '1px solid rgba(192,132,252,0.5)',
-    color: '#c084fc',
-    fontSize: 13,
-    fontWeight: 700
-  }}>
-    <span style={{
-      width: 28,
-      height: 28,
-      borderRadius: 8,
-      background: 'rgba(192,132,252,0.15)',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      fontSize: 15,
-      fontWeight: 900
-    }}>
-      @
-    </span>
-    EMAIL
-  </div>
-</div>
+```aura width=150 height=44 link="mailto:ТВОЯ_ПОЧТА@example.com" inline align=center
+<SocialMediaButton
+  icon="https://cdn.simpleicons.org/gmail/ffffff"
+  text="Email"
+  backgroundColor="#111111"
+  width={150}
+  height={44}
+  gradientStops={[
+    { offset: '0%', color: '#ffffff' },
+    { offset: '10%', color: '#111111' },
+    { offset: '50%', color: '#eeeeee' },
+    { offset: '60%', color: '#1af4ff' },
+    { offset: '80%', color: '#111111' },
+    { offset: '100%', color: '#555555' },
+  ]}
+  iconSize="30"
+/>
 ```
 
 ## `$ tail -f contribution.log`
