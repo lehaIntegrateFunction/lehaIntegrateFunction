@@ -503,9 +503,9 @@
 </div>
 ```
 
-```aura width=150 height=44 link="https://t.me/ТВОЙ_НИК" inline align=center
+```aura width=150 height=44 link="https://t.me/rootracer" inline align=center
 <SocialMediaButton
-  icon="https://raw.githubusercontent.com/lehaIntegrateFunction/LehaIntegrateFunction/main/telegram-icon.svg"
+  icon="https://raw.githubusercontent.com/lehaIntegrateFunction/LehaIntegrateFunction/main/.github/telegram-icon.svg"
   text="Telegram"
   backgroundColor="#111111"
   width={150}
@@ -522,9 +522,9 @@
 />
 ```
 
-```aura width=150 height=44 link="https://tiktok.com/@ТВОЙ_НИК" inline align=center
+```aura width=150 height=44 link="https://tiktok.com/@user1101000010010000" inline align=center
 <SocialMediaButton
-  icon="https://raw.githubusercontent.com/lehaIntegrateFunction/LehaIntegrateFunction/main/icontiktok.jpg"
+  icon="https://raw.githubusercontent.com/lehaIntegrateFunction/LehaIntegrateFunction/main/.github/icontiktok.jpg"
   text="TikTok"
   backgroundColor="#111111"
   width={150}
@@ -541,9 +541,9 @@
 />
 ```
 
-```aura width=150 height=44 link="mailto:ТВОЯ_ПОЧТА@example.com" inline align=center
+```aura width=150 height=44 link="mailto:qwer290310@gmail.com" inline align=center
 <SocialMediaButton
-  icon="https://raw.githubusercontent.com/lehaIntegrateFunction/LehaIntegrateFunction/main/gmail-icon.svg"
+  icon="https://raw.githubusercontent.com/lehaIntegrateFunction/LehaIntegrateFunction/main/.github/gmail-icon.svg"
   text="Email"
   backgroundColor="#111111"
   width={150}
@@ -560,136 +560,3 @@
 />
 ```
 
-## `$ tail -f contribution.log`
-
-```aura width=860 height=180
-<div style={{
-  width: '100%',
-  height: '100%',
-  background: '#050508',
-  display: 'flex',
-  flexDirection: 'column',
-  justifyContent: 'center',
-  padding: '22px 32px',
-  borderRadius: 18,
-  border: '1px solid rgba(139,92,246,0.5)',
-  fontFamily: 'Inter, sans-serif',
-  position: 'relative',
-  overflow: 'hidden',
-  boxSizing: 'border-box',
-  gap: 14
-}}>
-  <style>{`
-    @keyframes snakeGlow1 {
-      0%, 100% {
-        transform: translate(0px, 0px) scale(1);
-      }
-
-      50% {
-        transform: translate(180px, -20px) scale(1.25);
-      }
-    }
-
-    @keyframes snakeGlow2 {
-      0%, 100% {
-        transform: translate(0px, 0px) scale(1);
-      }
-
-      50% {
-        transform: translate(-160px, 25px) scale(1.2);
-      }
-    }
-
-    #snakeGlow1 {
-      animation: snakeGlow1 9s ease-in-out infinite;
-    }
-
-    #snakeGlow2 {
-      animation: snakeGlow2 11s ease-in-out infinite;
-    }
-  `}</style>
-
-  <svg width="860" height="180" style={{
-    position: 'absolute',
-    top: 0,
-    left: 0
-  }}>
-    <defs>
-      <radialGradient id="snakePurple">
-        <stop offset="0%" stopColor="rgba(168,85,247,0.75)" />
-        <stop offset="70%" stopColor="rgba(126,34,206,0)" />
-      </radialGradient>
-
-      <radialGradient id="snakeBlue">
-        <stop offset="0%" stopColor="rgba(59,130,246,0.7)" />
-        <stop offset="70%" stopColor="rgba(29,78,216,0)" />
-      </radialGradient>
-    </defs>
-
-    <circle
-      id="snakeGlow1"
-      cx="180"
-      cy="150"
-      r="150"
-      fill="url(#snakePurple)"
-    />
-
-    <circle
-      id="snakeGlow2"
-      cx="700"
-      cy="50"
-      r="150"
-      fill="url(#snakeBlue)"
-    />
-  </svg>
-
-  <div style={{
-    display: 'flex',
-    alignItems: 'center',
-    gap: 10,
-    position: 'relative'
-  }}>
-    <span style={{
-      color: '#c084fc',
-      fontSize: 14,
-      fontWeight: 800
-    }}>
-      $
-    </span>
-
-    <span style={{
-      color: '#ffffff',
-      fontSize: 14,
-      fontWeight: 700
-    }}>
-      tail -f contribution.log
-    </span>
-
-    <span style={{
-      width: 7,
-      height: 7,
-      borderRadius: '50%',
-      background: '#22c55e',
-      boxShadow: '0 0 10px rgba(34,197,94,0.8)',
-      marginLeft: 3
-    }} />
-  </div>
-
-  <div style={{
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    width: '100%',
-    padding: '14px 10px',
-    borderRadius: 12,
-    background: 'rgba(255,255,255,0.035)',
-    border: '1px solid rgba(255,255,255,0.08)',
-    position: 'relative',
-    boxSizing: 'border-box'
-  }}>
-    <img
-      src="https://raw.githubusercontent.com/lehaIntegrateFunction/LehaIntegrateFunction/output/github-contribution-grid-snake.svg"
-    />
-  </div>
-</div>
-```
